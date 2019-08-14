@@ -1,0 +1,476 @@
+/*GENERAL | CUERPO | CONTENIDO*/
+
+/*_____________INDEX- PRINCIPAL____________*/
+
+
+.contenido{
+	max-width: 900px;
+	margin: auto;
+	padding: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Dancing Script"
+
+}
+body{
+	background-color: #02010a;
+	max-width:900px;
+	margin: auto;
+}
+
+figure img{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px  #02010a;
+}
+figcaption{
+	color: white;
+}
+li a{
+	text-decoration: none;
+	list-style: none;
+}
+
+
+
+
+
+
+/*CABECERA*/
+
+
+
+
+
+.wrapper{
+	max-width: 900px;
+	display: flex;
+	padding: 1% 5%;
+	background-color:  #5b7989;
+	color: white;
+	font-size: 17px;
+	overflow: hidden;
+	margin: auto;
+	border-radius: 10px 10px 0px 0px;
+	border:0px solid;
+	flex: row wrap;
+}
+.logo{
+	color:white;
+	float: left;
+	padding-left: 8%;
+	font-size: 15px;
+	
+}
+
+/*NAVEGACION*/
+
+.menu nav ul li a{
+	color: white;
+	text-decoration: underline;
+}
+.menu{
+	float: right;
+	padding-right: auto;
+	margin: auto;
+}
+.menu nav ul li{
+	list-style: none;
+	display: inline;	
+	padding: 12px;
+	margin: auto;
+}
+
+
+
+
+
+/*IMAGEN CENTRAL*/
+
+
+
+
+
+.imgcentral{
+	transform: scale(0.89);
+
+}
+.caja1{
+	background-color: #82c3a6;
+	margin:auto;
+}
+
+
+
+
+
+/*IMAGENES SECUNDARIAS*/
+
+
+
+
+
+	figcaption{
+		text-align: center;
+		color: black;
+	}
+	a{
+		text-decoration: underline;
+		text-align: center;
+		color: black;
+	}
+	.container{
+		display: flex;
+		background-color: #d5c75f;
+		padding: 4%;
+		flex:row wrap;
+		justify-content: space-between;
+		border:1px solid;
+	}
+	.container figure{
+		width: 90%;
+	}
+	.caja2 figure{
+		float: left;
+		padding: 0;
+		margin: auto;
+	}
+	.caja3 figure{
+		float: right;
+		padding: 0;
+		margin: auto;
+	}
+	.caja2,.caja3 figure img{
+		box-shadow: #82c3a6;
+	}
+
+
+
+/*PIE DE PAGINA*/
+
+
+
+.footer{
+	background: #C6d5c5;
+	margin: auto;
+	border-radius: 0px 0px 10px 10px;
+	max-width: 900px;
+	height: 130px;
+	
+}
+.division li{
+	list-style: none;
+}
+.division{
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 20px;
+	margin: auto;
+	justify-content: center;
+}
+.division div{
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.contacto{
+	max-width: 225px;
+	justify-content: center;
+	align-items: center;
+}
+.terminos{
+	max-width: 225px;
+	justify-content: center;
+	align-items: center;
+}
+.redes{
+	max-width: 225px;
+	justify-content: center;
+	align-items: center;
+}
+.derechos{
+	max-width: 225px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+/*KEYFRAMES*/
+
+
+
+
+@keyframes imagen2-animacion{
+	0%{
+
+		transform: rotateZ(0deg);
+		left: 0px;
+	}
+	50%{
+		transform: rotateZ(10deg);
+		left: 0px;
+	}
+	100%{
+		transform: rotateZ(0deg);
+		left: 0px;
+	}
+}
+.imgpaisaje:hover{
+	animation-name: imagen2-animacion;
+	animation-duration: 2s;
+}
+
+
+
+@keyframes imagen3-animacion{
+	0%{
+		transform: translate(0px, 0px);
+	}
+	50%{
+		transform: translate(20px, -5px);
+	}
+	100%{
+		transform:translate(0px, 0px);
+	}
+}
+
+
+.imgretrato:hover{
+	animation-name: imagen3-animacion;
+	animation-duration: 3s;
+}
+
+
+
+/*____________PAISAJES | RETRATOS___________*/
+
+
+.container1{
+	display: flex;
+	flex-flow:wrap;
+	overflow: hidden;
+	background-color: #d5c75f;
+	padding: 4%;
+	border:1px solid;
+}
+.container1 figure{
+	width: 30%;
+}
+.img figure{
+	float: left;
+	padding: 0;
+	margin: auto;
+	padding-bottom: 5%;
+	filter: blur(10px);
+}
+.img2 figure{
+	float: right;
+	padding: 0;
+	margin: auto;
+	padding-bottom: 5%;
+	filter: sepia(90);
+}
+.img3 figure{
+	justify-content: space-between;
+	padding: 0;
+	margin: auto;
+	padding-bottom: 5%;
+	filter: grayscale(100%);
+}
+.img4 figure{
+	float: right;
+	padding: 0;
+	margin: auto;
+	padding-bottom: 5%;
+	filter: grayscale(100%);
+}
+.img5 figure{
+	float: left;
+	justify-content: space-between;
+	padding: 0;
+	margin: auto;
+	padding-bottom: 5%;
+	filter: grayscale(100%);
+}
+.img6 figure{
+	justify-content: space-between;
+	padding: 0;
+	margin: auto;
+	padding-bottom: 5%;
+}
+.caja2,.caja3 figure img{
+	box-shadow: #82c3a6;
+}
+
+
+
+
+
+/*-----MEDIA QUERIES-------*/
+
+
+
+
+
+@media screen and (max-width: 886px){
+
+
+/*----ENCABEZADO-------*/
+
+
+.wrapper{
+	max-width: 900px;
+	display: flex;
+	padding: auto;
+	overflow: hidden;
+	margin: auto;
+	flex-direction:column;
+	justify-content: space-between;
+	text-align: center;
+	border-radius: 0px 0px 0px 0px;
+}
+.logo{
+	color:white;
+	justify-content: space-between;
+	padding-left: 8%;
+	font-size: 15px;
+	margin: auto;
+}
+h1{
+	margin: auto;
+}
+.menu{
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	justify-content: space-between;
+	flex: column wrap;
+}
+.menu nav ul li{
+	list-style: none;
+	display: inline;	
+	margin: auto;
+}
+nav{
+	justify-content: center;
+	display: flex;
+}
+
+/*-------SECUNDARIAS-------*/
+
+.container1{
+	display: flex;
+	flex-direction: column;
+}
+.content1{
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+	padding: auto;
+	margin: auto;
+	overflow: hidden;
+	float: left;
+	justify-content: left;
+}
+.container1 figure{
+	width: 100%;
+	max-width: 90%;
+	margin: auto;
+	justify-content: space-between;
+	text-align: center;
+	padding: auto;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+.img, .img2, .img3, .img4, .img5, .img6{
+	width: 100%;
+	justify-content: center;
+	float: none;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*-------FOOTER------*/
+
+
+.division{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	float: none;
+	max-width: 225px;
+}
+.division div{
+	margin-top: 2%;
+}
+.footer{
+	height: 380px;
+	border-radius: 0px 0px 0px 0px;
+}
+.contacto, .terminos, .redes, .derechos{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.content1{
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+	padding: auto;
+	margin: auto;
+	overflow: hidden;
+	float: left;
+	justify-content: left;
+}
+.container1 figure{
+	width: 100%;
+	max-width: 90%;
+	margin: auto;
+	justify-content: space-between;
+	text-align: center;
+	padding: auto;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+.img, .img2, .img3, .img4, .img5, .img6{
+	width: 100%;
+	justify-content: center;
+	float: none;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*----------INDEX PRINCIPAL---------*/
+
+
+.caja2, .caja3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	float: none;
+	overflow: hidden;
+	margin: auto;
+	padding: auto;
+	float: none;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: center;
+}
